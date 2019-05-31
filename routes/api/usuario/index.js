@@ -1,4 +1,4 @@
-const routes = require('express').Router({ mergeParams: true });
+const routes = require('express').Router();
 
 const get = require('../../../controllers/usuario/get');
 const create = require('../../../controllers/usuario/create');
